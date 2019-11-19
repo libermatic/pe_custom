@@ -4,3 +4,9 @@
 *.swp
 tags
 pe_custom/docs/current
+__pycache__
+
+# Bench runtime
+node_modules/
+pe_custom/public/node_modules
+yarn.lock
