@@ -20,6 +20,7 @@ def _update_settings():
 
     settings = {
         "Selling Settings": {"cust_master_name": "Naming Series"},
+        "Buying Settings": {"supp_master_name": "Naming Series"},
         "Stock Settings": {"item_naming_by": "Naming Series"},
     }
 
