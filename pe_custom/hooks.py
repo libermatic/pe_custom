@@ -12,6 +12,33 @@ app_color = "grey"
 app_email = "info@libermatic.com"
 app_license = "MIT"
 
+error_report_email = "support@libermatic.com"
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "or_filters": [
+            ["name", "like", "Customer-pe_%"],
+            ["name", "like", "Item-pe_%"],
+            ["name", "like", "Sales Invoice-pe_%"],
+        ],
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Customer-naming_series-options",
+                    "Supplier-naming_series-options",
+                    "Item-naming_series-options",
+                ],
+            ]
+        ],
+    },
+]
+
 # Includes in <head>
 # ------------------
 
