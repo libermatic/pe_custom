@@ -1,6 +1,6 @@
 {
   "name": "pe_custom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Customizations for PE",
   "main": "pe_custom/public/js/index",
   "scripts": {
