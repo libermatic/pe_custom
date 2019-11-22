@@ -1,0 +1,168 @@
+{
+ "autoname": "YI-.YY.#####",
+ "creation": "2019-11-18 22:03:15.151340",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "import_datetime",
+  "column_break_2",
+  "amended_from",
+  "attachments_section",
+  "customers",
+  "column_break_6",
+  "items",
+  "column_break_8",
+  "sales",
+  "summary_section",
+  "customers_imported",
+  "customers_created",
+  "column_break_13",
+  "items_imported",
+  "items_created",
+  "column_break_16",
+  "sales_imported",
+  "invoices_created"
+ ],
+ "fields": [
+  {
+   "default": "Now",
+   "fieldname": "import_datetime",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Import Datetime",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Yum Import",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "attachments_section",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "customers",
+   "fieldtype": "Attach",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Attach",
+   "label": "Items"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sales",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Sales"
+  },
+  {
+   "fieldname": "summary_section",
+   "fieldtype": "Section Break",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoices_created",
+   "fieldtype": "Int",
+   "label": "Sales Invoices Created",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customers_created",
+   "fieldtype": "Int",
+   "label": "New Customers Created",
+   "read_only": 1
+  },
+  {
+   "fieldname": "items_created",
+   "fieldtype": "Int",
+   "label": "New Items Created",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customers_imported",
+   "fieldtype": "Int",
+   "label": "Customers in Import",
+   "read_only": 1
+  },
+  {
+   "fieldname": "items_imported",
+   "fieldtype": "Int",
+   "label": "Items in Import",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sales_imported",
+   "fieldtype": "Int",
+   "label": "Sales in Import",
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2019-11-19 20:17:36.347239",
+ "modified_by": "Administrator",
+ "module": "PE Customization",
+ "name": "Yum Import",
+ "owner": "sun@x.com",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
